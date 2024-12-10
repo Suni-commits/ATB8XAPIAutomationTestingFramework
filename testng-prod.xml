@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ATB8XAPIAutomationTestingFramework">
+    <test verbose="2" preserve-order="true" name="API Tests">
+        <classes>
+            <class name="org.example.tests.integration.sample.dummy">
+                <groups>
+                    <run>
+                        <include name="Prod"/>
+                        <include name="reg"/>
+                    </run>
+                </groups>
+            </class>
+        </classes>
+    </test>
+</suite>
