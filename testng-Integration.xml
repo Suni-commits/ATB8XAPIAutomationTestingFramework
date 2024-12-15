@@ -6,7 +6,7 @@
             <class name="org.example.tests.integration.sample.dummy">
                 <groups>
                     <run>
-                        <include name="QA"/>
+                        <include name="qa"/>
                         <exclude name="reg"/>
                     </run>
                 </groups>
